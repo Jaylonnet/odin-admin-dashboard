@@ -66,12 +66,17 @@ body {
     grid-column: 2 / 3;
 	background: #ECF0F1;
 	display: grid;
-	grid-template-columns: 60% 40%;
-	grid-template-rows: auto auto;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	padding: 30px;
 }
 
 #search {
-	width: 100%;
+	border: none;
+	border-radius: 30px;
+	background-color: #E2E8F0;
+	max-height: 0;
+	padding: 20px;
 }
 
 .sidebar {
@@ -83,7 +88,7 @@ body {
 	gap: 80px;
 	color: #ecf0f1;
 	padding-left: 40px;
-	padding-top: 20px;
+	padding-top: 30px;
 }
 
 #logo {
